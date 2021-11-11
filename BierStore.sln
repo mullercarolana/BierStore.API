@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BierStore", "BierStore\BierStore.csproj", "{5E30615D-1E7E-44D1-B682-7D1FFF187D2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Store", "Store", "{7AC37DDE-3F90-4142-AE3D-6A57ABDF59C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{7D218DCD-6DDB-421F-9267-D0661A02DC2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{455B7661-C436-4621-B358-F2201DCB69A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BierStoreTestes", "BierStoreTestes\BierStoreTestes.csproj", "{FA9414AA-0856-4B15-92D3-0AEA32864779}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E30615D-1E7E-44D1-B682-7D1FFF187D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E30615D-1E7E-44D1-B682-7D1FFF187D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E30615D-1E7E-44D1-B682-7D1FFF187D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E30615D-1E7E-44D1-B682-7D1FFF187D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA9414AA-0856-4B15-92D3-0AEA32864779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9414AA-0856-4B15-92D3-0AEA32864779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9414AA-0856-4B15-92D3-0AEA32864779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9414AA-0856-4B15-92D3-0AEA32864779}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E30615D-1E7E-44D1-B682-7D1FFF187D2B} = {7D218DCD-6DDB-421F-9267-D0661A02DC2C}
+		{7D218DCD-6DDB-421F-9267-D0661A02DC2C} = {7AC37DDE-3F90-4142-AE3D-6A57ABDF59C4}
+		{455B7661-C436-4621-B358-F2201DCB69A3} = {7AC37DDE-3F90-4142-AE3D-6A57ABDF59C4}
+		{FA9414AA-0856-4B15-92D3-0AEA32864779} = {455B7661-C436-4621-B358-F2201DCB69A3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39556539-787B-426E-9006-2F09019C979E}
+	EndGlobalSection
+EndGlobal
